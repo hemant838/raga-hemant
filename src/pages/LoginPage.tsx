@@ -227,7 +227,7 @@ export default function LoginPage(): JSX.Element {
                 : "Signing in..."
               : isSignUpMode
                 ? "Create account"
-                : "Enter command center"}
+                : "Sign in"}
           </button>
 
           <p className="login-form-meta">
@@ -249,7 +249,6 @@ export default function LoginPage(): JSX.Element {
             <>
               <strong>clinician@ragahealthcare.com</strong>
               <span>CarePulse!2026</span>
-              <p>Add Firebase env variables to authenticate against a real project.</p>
             </>
           )}
         </div>
