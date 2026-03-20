@@ -1,0 +1,17 @@
+interface PageHeaderProps {
+  eyebrow: string;
+  title: string;
+  description: string;
+}
+
+export const PageHeader = ({
+  eyebrow,
+  title,
+  description
+}: PageHeaderProps): JSX.Element => (
+  <div className="page-header">
+    <p className="eyebrow">{eyebrow}</p>
+    <h2>{title}</h2>
+    <p>{description}</p>
+  </div>
+);

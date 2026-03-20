@@ -1,0 +1,15 @@
+{
+  "name": "RAGA Health Care",
+  "short_name": "RAGA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4efe4",
+  "theme_color": "#0d3639",
+  "icons": [
+    {
+      "src": "/mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
